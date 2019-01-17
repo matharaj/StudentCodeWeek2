@@ -15,11 +15,17 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class StudentDemo {
 
     private String name;
+    private int ID; 
 
     //constructor
     public StudentDemo(String givenName)
     {
         name=givenName;
+    }
+    
+    public int getID()
+    {
+        return ID; 
     }
     /**
      * @return the name
@@ -33,6 +39,13 @@ public class StudentDemo {
      */
     public void setName(String givenName) {
         name = givenName;
+    }
+
+    /**
+     * @param ID the ID to set
+     */
+    public void setID(int ID) {
+        this.ID = ID;
     }
     
     
