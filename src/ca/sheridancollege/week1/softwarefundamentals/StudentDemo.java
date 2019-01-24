@@ -11,6 +11,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
  * each student can: say their name (getName)
 
  * @author mehta
+ * @date 1/24/2019
  */
 public class StudentDemo {
 
